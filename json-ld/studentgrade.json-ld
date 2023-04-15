@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "StudentGrade": {
+        "@id": "https://raw.githubusercontent.com/LastingAsset/claim-schema-vocab/main/json-ld/studentgrade.json-ld#StudentGrade",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "sg-vocab": "https://raw.githubusercontent.com/LastingAsset/claim-schema-vocab/main/credentials/sg.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "module": {
+            "@id": "sg-vocab:module",
+            "@type": "xsd:integer"
+          },
+          "grade": {
+            "@id": "sg-vocab:grade",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
